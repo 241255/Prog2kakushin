@@ -8,4 +8,4 @@
 
 問題3
 
-人の顔の顔と目の位置を検出するプログラム。任意のファイル(人の顔)のファイルを読み込み顔の部分を黒い線で、目の位置を白い線で囲むプログラム。
+人の顔の顔と目の位置を検出するプログラム。任意のファイル(人の顔)のファイルを読み込み顔の部分を黒い線で、目の位置を白い線で囲む。処理に伴いhttps://github.com/opencv/opencv/tree/master/data/haarcascadesから「haarcascade_frontalface_alt.xml」と「haarcascade_eye.xml」という2つのファイルを事前にダウンロードしておくことが必要である。
