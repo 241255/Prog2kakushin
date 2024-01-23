@@ -33,7 +33,15 @@ https://data.bodik.jp/dataset/402036_0009100_00005
 
 # 問題3
 ## 概要
-人の顔の顔と目の位置を検出するプログラム。任意のファイル(人の顔)のファイルを読み込み顔の部分を黒い線で、目の位置を白い線で囲む。処理に伴い「haarcascade_frontalface_alt.xml」と「haarcascade_eye.xml」という2つのファイルを事前にダウンロードしておくことが必要である。
+このプログラムは、入力された任意の画像から人の顔の顔と目の位置を自動的に検出するプログラムです。
 
-ファイルダウンロード元
-https://github.com/opencv/opencv/tree/master/data/haarcascades
+## 事前準備
+人の顔の画像or写真を用意しておく必要があります。
+処理に伴い「haarcascade_frontalface_alt.xml」と「haarcascade_eye.xml」という2つのファイルを事前にダウンロードしておく必要があります。
+
+ダウンロード:https://github.com/opencv/opencv/tree/master/data/haarcascades
+
+## 入力と出力
+事前に用意した画像or写真を読み込むことで、顔の部分を黒い線で、目の位置を白い線で自動的に囲むことができます。
+
+※現在エラーが起きておりプログラムが正常に動作していません。
