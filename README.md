@@ -28,9 +28,9 @@ https://data.bodik.jp/dataset/402036_0009100_00005
 簡単な計算結果でのミスを減らすための確認をできるようにするため。
 
 ## 事前準備
-計算したい行列の要素を2つのcsvファイル(dataとdata2)に入力しておく必要があります。
+* 計算したい行列の要素を2つのcsvファイル(dataとdata2)に入力しておく必要があります。
 
-1つが要素を持たないからのcsvファイル(r_data)を用意しておく必要があります。
+* 要素を持たない空のcsvファイル(r_data)を用意しておく必要があります。
 
 **※r_dataと名前を付けたexcelを用意するだけで大丈夫です。**
 
@@ -44,8 +44,9 @@ https://data.bodik.jp/dataset/402036_0009100_00005
 このプログラムは、入力された任意の画像から人の顔の顔と目の位置を自動的に検出するプログラムです。
 
 ## 事前準備
-人の顔の画像or写真を用意しておく必要があります。
-処理に伴い「haarcascade_frontalface_alt.xml」と「haarcascade_eye.xml」という2つのファイルを事前にダウンロードしておく必要があります。
+* 人の顔の画像or写真を用意しておく必要があります。
+
+* 処理に伴い「haarcascade_frontalface_alt.xml」と「haarcascade_eye.xml」という2つのファイルを事前にダウンロードしておく必要があります。
 
 ダウンロード:https://github.com/opencv/opencv/tree/master/data/haarcascades
 
