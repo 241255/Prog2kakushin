@@ -46,6 +46,8 @@ https://data.bodik.jp/dataset/402036_0009100_00005
 ## 事前準備
 * 人の顔の画像or写真を用意しておく必要があります。
 
+写真引用元:https://www.photo-ac.com/main/genface
+
 * 処理に伴い「haarcascade_frontalface_alt.xml」と「haarcascade_eye.xml」という2つのファイルを事前にダウンロードしておく必要があります。
 
 ダウンロード:https://github.com/opencv/opencv/tree/master/data/haarcascades
